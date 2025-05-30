@@ -1,7 +1,7 @@
 /// matrix43.js: a 3D transformations matrix library both compatible with HTML5 Canvas and libraries like PixiJS
 /// This library uses 4x3 matrices because fourth row is not needed for canvas/pixi applications (it is assumed always as 0 0 0 1).
 /// @author info@iagoFG.com
-/// @license LGPL 2.1
+/// @license MPL-2.0
 "use strict";
 (function() {
 	var $m43 = {};
